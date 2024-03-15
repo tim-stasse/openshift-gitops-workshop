@@ -9,7 +9,7 @@ spec:
   template:
     spec:
       containers:
-        - name: httpie
+        - name: httpie-1
           image: alpine/httpie:2.4.0
           imagePullPolicy: Always
           command: ["http"]
@@ -20,7 +20,7 @@ spec:
               "title=Finish ArgoCD tutorial",
               "--ignore-stdin"
             ]
-        - name: httpie
+        - name: httpie-2
           image: alpine/httpie:2.4.0
           imagePullPolicy: Always
           command: ["http"]

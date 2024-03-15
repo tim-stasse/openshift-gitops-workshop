@@ -17,7 +17,7 @@ spec:
             [
               "POST",
               "todo-gitops:8080/api",
-              "title=Some other todo task",
+              "title=Yet another todo task",
               "--ignore-stdin"
             ]
       restartPolicy: Never

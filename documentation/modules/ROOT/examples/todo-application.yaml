@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: documentation/modules/ROOT/examples/todo
-    repoURL: https://github.com/openshiftdemos/openshift-gitops-workshop
+    repoURL: https://github.com/tim-stasse/openshift-gitops-workshop
     targetRevision: master
   syncPolicy:
     automated:

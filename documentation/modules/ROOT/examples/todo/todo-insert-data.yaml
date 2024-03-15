@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: todo-insert
+  name: todo-insert-new
   annotations:
     argocd.argoproj.io/hook: PostSync # <1>
     argocd.argoproj.io/hook-delete-policy: HookSucceeded
